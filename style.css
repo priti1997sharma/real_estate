@@ -1,0 +1,264 @@
+.header{
+    height: 100px;
+    width: 1420px;
+    border: 1px outset black;
+    top: sticky-fixed;
+    position: fixed;
+    top: 0;
+    background-color: darkgray;
+}
+
+div.main{
+    
+    height:600px;
+   margin-left: 0px;
+    margin-top: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+
+}
+
+div.btn{
+    margin-left:1000px;
+    width: 100px;
+   margin-top: -38px;
+   
+    
+    
+}
+
+/* HEADER CLASS START */
+
+.homepages a {
+    font-size: 23px;
+    padding-left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER CLASS END */
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    
+}
+
+div{
+    margin-left: 350px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+  
+
+}
+
+select{
+    height: 35px;
+    width: 90px;
+    font-size:16px ;
+    margin-left: 100px;
+}
+
+input{
+
+   
+    margin-left:-5px ;
+    height: 38px;
+    width: 400px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.icon{
+    height: 25px;
+    width: 27px;
+    margin-left: -140px; 
+    border-radius: 10px;
+    background-color: red;
+}
+
+
+button{
+    margin-left: 100px;
+    height: 40px;
+    width: 150px;
+}
+
+.m1{
+    height: 500px;
+    width: 1420px;
+    margin-left: 0px;
+}
+
+
+div.info{
+    height: 500px;
+    width: 800px;
+    border: 1px outset black;
+    float: right;
+    margin-top: 180px;
+    margin-right:50px ;
+    border-radius: 10px;
+    background-color:bisque;
+}
+
+    .detail{
+        height: 50px;
+        width: 350px;
+        border: 1px outset black;
+        margin-left: 243px;
+        margin-top: 80px;
+        background-color:darkgray;
+    }
+
+    .im1{
+        height: 40px;
+        width: 40px;
+        margin-top: -250px;
+        margin-left: -12px;
+    }
+
+    .im2{
+        height: 30px;
+        width: 30px;
+        margin-top: -150px;
+        margin-left: -12px;
+    }
+
+
+    h5{
+        padding-left:20px;
+        
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h6{
+        margin-top: -50px;
+        font-size: 15px;
+        margin-left: 60px;
+    }
+
+
+.box1{
+    height: 40px;
+    width: 124px;
+    border: 1px outset black;
+   margin-left:205px;
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+
+
+ .box2{
+    height: 40px;
+    width: 120px;
+    border: 1px outset black;
+   margin-left: 330px;
+   margin-top: -42px;
+   text-align: center; 
+   
+   
+}
+
+.box3{
+    height: 40px;
+    width: 180px;
+    border: 1px outset black;
+   margin-left: 452px;
+   margin-top: -42px;
+   text-align: center; 
+   padding-left: -100px;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    
+}
+
+select{
+    height:42px ;
+    width:181px ;
+    margin-left: 34px;
+}
+
+
+
+.search{
+    background-color: red;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-top: -30px;
+ 
+    width: 100px;
+    padding-left: 40px;   
+}
+
+.radioBtn{
+    height: 40px;
+    width:732px;
+    border: 1px outset black;
+    margin-top: -1px;
+    margin-left:34px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rbtn{
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.bhk{
+    height: 35px;
+    
+    margin-left: 4px;
+}
+
+.property{
+    height: 35px;
+    margin-left: -1px;
+
+}
+
+.checkbox{
+    width: 34px;
+    height: 15px;
+}
+
+.line{
+    width: 20px;
+    height: 5px;
+    border: 1px outset white;
+    margin-top: 400px;
+}
+
+.bf{
+    height: 40px;
+    width: 180px;
+    background-color: goldenrod;
+    margin-top: 40px;
+    margin-left: 309px;
+}
+
+div.gallary{
+  height: 200px;
+    width: 180px;
+    border:1px outset black;
+    border-radius: 20px;
+    margin-top: 10px;
+} 
