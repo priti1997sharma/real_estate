@@ -1,3 +1,4 @@
+/* HEADER CLASS START */
 .header{
     height: 100px;
     width: 1420px;
@@ -5,8 +6,36 @@
     top: sticky-fixed;
     position: fixed;
     top: 0;
-    background-color: darkgray;
+    background-color: rgb(41, 35, 35);
 }
+
+.logo{
+    height: 99px;
+    width: 150px;
+    border-radius: 50px;
+  padding-left: 10px;
+
+}
+
+.homepages a {
+    font-size: 24px;
+    padding-left: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-style: bold;
+
+}
+
+
+div.btn{
+    margin-left:1100px;
+    width: 100px;
+   margin-top: -38px;
+   border-radius: 10px;
+      
+}
+
+/* HEADER CLASS END */
 
 div.main{
     
@@ -14,32 +43,6 @@ div.main{
    margin-left: 0px;
     margin-top: 100px;
 }
-
-.logo{
-    height: 100px;
-    width: 150px;
-
-}
-
-div.btn{
-    margin-left:1000px;
-    width: 100px;
-   margin-top: -38px;
-   
-    
-    
-}
-
-/* HEADER CLASS START */
-
-.homepages a {
-    font-size: 23px;
-    padding-left: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* HEADER CLASS END */
-
 
 a{
     text-decoration: none;
@@ -76,13 +79,7 @@ input{
     
 }
 
-.icon{
-    height: 25px;
-    width: 27px;
-    margin-left: -140px; 
-    border-radius: 10px;
-    background-color: red;
-}
+
 
 
 button{
@@ -103,10 +100,11 @@ div.info{
     width: 800px;
     border: 1px outset black;
     float: right;
-    margin-top: 180px;
+    margin-top: 100px;
     margin-right:50px ;
     border-radius: 10px;
     background-color:bisque;
+    background: rgba(255,228,196,0.8)
 }
 
     .detail{
@@ -195,15 +193,24 @@ select{
 }
 
 
-
+/* Search box CSS */
 .search{
-    background-color: red;
+    background-color: rgb(5, 84, 116);
     font-size: 18px;
-    color: whitesmoke;
+    color: white;
     padding-top: -30px;
  
     width: 100px;
     padding-left: 40px;   
+}
+
+.icon{
+    height: 25px;
+    width: 27px;
+    margin-left: -140px; 
+    border-radius: 20px;
+    padding-top: 10px;
+    
 }
 
 .radioBtn{
@@ -255,10 +262,496 @@ select{
     margin-left: 309px;
 }
 
-div.gallary{
+video {
+    position: absolute;
+    z-index: -1;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 240px;
+}
+
+div.imgGallary{
+    height: 250px;
+    width: 1420px;
+    border: 1px outset black;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: rgb(243, 240, 240);
+}
+
+div.miniphotos1{
   height: 200px;
+    width: 250px;
+    border:1px outset black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left:20px ;
+} 
+.R1{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: cover;
+}
+
+
+div.miniphotos2{
+    height: 200px;
+      width: 250px;
+      border:1px outset black;
+      border-radius: 20px;
+      margin-top:-205px;
+      margin-left:280px;
+  }
+
+  .R2{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: cover;
+}
+  
+  div.miniphotos3{
+    height: 200px;
+      width: 250px;
+      border:1px outset black;
+      border-radius: 20px;
+      margin-top: -205px;
+      margin-left:280px ;
+  }
+
+  .R3{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: cover;
+}
+  
+
+  div.miniphotos4{
+    height: 200px;
+      width: 250px;
+      border:1px outset black;
+      border-radius: 20px;
+      margin-top:-205px;
+      margin-left:280px ;
+  }
+
+  .R4{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: cover;
+}
+
+  div.miniphotos5{
+    height: 200px;
+      width: 250px;
+      border:1px outset black;
+      border-radius: 20px;
+      margin-top:-205px;
+      margin-left:280px ;
+  }
+
+  .R5{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background: cover;
+}
+
+div.paragraph2{
+    height: 500px;
+    width: 442px;
+    border: 1px outset black;
+    margin-top: 50px;
+    float: right;
+}
+
+.paraimg{
+    height: 500px;
+    width: 750px;
+    float: right;
+
+}
+
+div.paragraph_H{
+    height: 500px;
+    width: 650px;
+    /* border: 1px outset black; */
+    margin-left:0px;
+    margin-top: 50px;
+    background-color: rgb(245, 241, 241);
+    
+}
+
+.dataho{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 40px;
+    line-height: 23px;
+
+} 
+
+/* Above footrs icons CSS */
+
+.icons_div{
+    height: 250px;
+    width: 1420px;
+    border: 1px outset black;
+    margin-top: 30px;
+    margin-left: 2px;
+    background-color: rgb(247, 239, 239);
+}
+
+.multipleicons1{
+height: 200px;
+width: 180px;
+border:1px outset black;
+border-radius: 20px;
+margin-top: 25px;
+margin-left:40px ;
+    
+}
+
+.c1{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box1-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(230, 169, 54);
+
+}
+
+.box1-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+    
+
+}
+
+.multipleicons2{
+    height: 200px;
+      width: 180px;
+      border:1px outset black;
+      border-radius: 20px;
+      margin-top:-189px;
+      margin-left:230px;
+}
+
+.c2{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box2-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(230, 169, 54);
+
+}
+
+.box2-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.multipleicons3{
+    height: 200px;
     width: 180px;
     border:1px outset black;
     border-radius: 20px;
-    margin-top: 10px;
-} 
+    margin-top: -195px;
+    margin-left:230px ;  
+}
+
+.c3{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box3-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: -8px;
+    color: rgb(230, 169, 54);
+
+}
+
+.box3-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.multipleicons4{
+    height: 200px;
+    width: 180px;
+    border:1px outset black;
+    border-radius: 20px;
+    margin-top: -205px;
+    margin-left:230px ;
+ }
+
+ .c4{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box4-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:-8px;
+    color: rgb(230, 169, 54);
+
+}
+
+.box4-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.multipleicons5{
+    height: 200px;
+    width: 180px;
+    border:1px outset black;
+    border-radius: 20px;
+    margin-top: -205px;
+    margin-left:230px ;
+ }
+
+ .c5{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box5-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(230, 169, 54);
+
+}
+
+.box5-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+.multipleicons6{
+    height: 200px;
+    width: 180px;
+    border:1px outset black;
+    border-radius: 20px;
+    margin-top: -205px;
+    margin-left:230px ;
+ }
+
+ .c6{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.box6-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(230, 169, 54);
+
+}
+
+.box6-description{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+/* Footer CSS*/
+
+.footer{
+    height: 400px;
+    width: 1420px;
+    margin-top: -15px;
+    background-color: rgb(247, 240, 240);
+    margin-left: 0px;
+}
+.ab{
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+.con{
+    height: 300px;
+    width: 300px;
+    margin-top: -300px;
+    margin-left: 550px;
+}
+.se{
+    height: 300px;
+    width: 180px;
+    margin-top: -300px;
+    margin-left: 880px;
+}
+.qu{
+    height: 300px;
+    width: 200px;
+    margin-top: -300px;
+    margin-left: 1090px;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.pp{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.two{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.t1{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.ppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.t2{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.pppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.t3{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.ppppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.fa{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.in{
+    height: 40px;
+    width: 45px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.three{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.c{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.d{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.e2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.f1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.four{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.a1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.cp{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

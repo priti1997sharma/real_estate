@@ -1,50 +1,94 @@
-.a{
+
+/* ============================= */
+
+
+
+.header{
+    height: 100px;
+    width: 1420px;
+    border: 1px outset black;
+    top: sticky-fixed;
+    position: fixed;
+    top: 0;
+    background-color: rgb(41,35,35);
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+.homepages {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-style: bold;
+    margin-top: -60px;
+    margin-left: 300px;
+}
+.homepages a{
+    padding-left: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+  
+
+.btnlogin a{
+    color: white;
+    font-size: 20px;
+}
+
+
+div.aIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 2px;
+    margin-left: 30px;
 }
-.b{
+div.bIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-top: -200px;
     border-radius: 20px;
 
 }
-.c{
+div.cIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
-    margin-left:400px;
-    margin-top: -200;
+    margin-left:465px;
+    margin-top: -200px;
     border-radius: 20px;
 
 }
-.d{
+div.dIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
-    margin-left:600px;
-    margin-top: -200;
+    margin-left:680px;
+    margin-top: -200px;
     border-radius: 20px;
 }
-.e{
+div.eIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
-    margin-left:800px;
-    margin-top: -200;
+    margin-left:900px;
+    margin-top: -200px;
     border-radius: 20px;
 }
-.f{
+div.fIcon{
     height: 200px;
     width: 180px;
     border:1px outset black;
-    margin-left:1000px;
-    margin-top: -200;
+    margin-left:1120px;
+    margin-top: -200px;
     border-radius: 20px;
 }
 .buil{
@@ -55,19 +99,63 @@ width: 100px;
 }
 h1{
     font-size: 15px;
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: arial;
 }
 .head{
     font-size: 13px;
     margin-left: 20px;
-
+}
+.si{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 70px;
+}
+.head1{
+    font-size: 13px;
+    margin-left: 40px;
+}
+.be{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 60px;
+}
+.head2{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.st{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 40px;
+}
+.head3{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.lc{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 60px;
+}
+.head4{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.sta{
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 70px;
+}
+.head5{
+    font-size: 13px;
+    margin-left: 40px;
 }
 
-button{
-    margin-left: 400px;
+.re{
+    margin-left: 450px;
     background-color: darkgoldenrod;
-    margin-top: 100px;
+    margin-top: 60px;
     height: 40px;
     width: 400px;
     border-radius: 5px;
@@ -76,10 +164,11 @@ a{
     text-decoration: none;
     color: black;
 }
-P{
-    margin-left: 310PX;
+.no{
+    margin-left: 320PX;
     font-size: 25PX;
     font-weight: BOLD;
+    padding-top: 10px;
 }
 
 .d1{
@@ -94,31 +183,37 @@ P{
     height: 40px;
     width: 900px;
     border: 1px outset black;
-    margin-left: 140px;
+    margin-left: 240px;
     background-color: darkgoldenrod;
     border-radius: 5px;
+    margin-top: -20px;
 }
 
 
 h2{    font-family: arial;
-margin-left: 520px;
+margin-left: 620px;
 margin-top: -30px;
 color:white;
 }
 .div1{
-height: 550px;
-width: 600px;
+height: 590px;
+width: 700px;
 border:1px outset black;
 float: left;
-background-color: gray;
+background-color: lightgray;
+border-radius: 8px;
+margin-left: 10px;
 
 }
 .div2{
-height: 550px;
-width: 600px;
+height: 590px;
+width: 700px;
 border:1px outset black;
-float: left;
-background-color: gray;
+float: right;
+background-color: lightgray;
+
+border-radius: 8px;
+
 
 }
 .bank{
@@ -127,14 +222,20 @@ background-color: gray;
     margin-left: 130px;
 }
 .btn1{
-    margin-top: 610px;
     margin-left: 85px;
     font-size: 18px;
+    margin-top: 620px;
+    height: 40px;
+    width: 400px;
+    background-color:darkgoldenrod ;
 }
 .btn2{
-    margin-top: 565px;
-    margin-left: 530px;
+    margin-top: 580px;
+    margin-left: 640px;
     font-size: 18px;
+    height: 40px;
+    width: 400px;
+    background-color: darkgoldenrod;
 
 }
 .div3{
@@ -178,12 +279,13 @@ input{
     border-radius: 1px;
     font-style: bold;
     color: white;
+    margin-left: 380px;
 }
 .div4{
     height: 40px;
     width: 600px;
     border: 1px outset black;
-    margin-left: -61px;
+    margin-left: -10px;
 }
 .PERVIEW{
     margin-left: 30PX;
@@ -209,4 +311,206 @@ input{
     margin-left: 80px;
     color:white;
 
+}
+.img{
+    height: 500px;
+    width: 1420px;
+    margin-top: 30px;
+}
+.jpr{
+    text-align:center;
+    margin-top: -340px;
+    color: white;
+    font-size: 45px;
+   
+
+    font-style: italic;
+}
+.btn4{
+    font-size: 18px;
+    font-style: bold;
+    margin-top: -80px;
+    height: 40px;
+    width: 400px;
+    background-color: darkgoldenrod;
+    margin-left:500px;
+}
+   
+.house1{
+    height: 490px;
+    width: 1422px;
+}
+.house2{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+margin-top: -60px;
+}
+
+/* /footer/ */
+.footer{
+    height: 400px;
+    width: 1420px;
+    margin-top: 210px;
+    background-color: whitesmoke;
+}
+.ab{
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.pp{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.con{
+    height: 300px;
+    width: 220px;
+    margin-top: -300px;
+    margin-left: 600px;
+}
+.two{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.t1{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.ppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.t2{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.pppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.t3{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.ppppp{
+    margin-left: 60px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.fa{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+.in{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.se{
+    height: 300px;
+    width: 180px;
+    margin-top: -300px;
+    margin-left: 880px;
+}
+.three{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.c{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.d{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.e2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.f1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+
+.qu{
+    height: 300px;
+    width: 200px;
+    margin-top: -300px;
+    margin-left: 1090px;
+}
+
+.four{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.a1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.a4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.cp{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.btn {
+    height: 20px;
+    padding-left: 1200px;
+    margin-top: -30px;
+}
+.btnlogin {
+    margin-left: 17px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+}
+.btnlogin a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
